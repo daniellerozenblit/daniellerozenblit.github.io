@@ -1,31 +1,40 @@
 body {
-  background-color: #FFE1BE
+  background-color: #FFE1BE;
+  font-family : monospace
 }
 
 /* Navigation bar */
+.navbar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding-top: 20px; 
+  background: #FFECD7; 
+}
 
 .navbar ul {
   list-style-type: none;
-  border: 0;
-  margin: 0;
-  padding: 0;
-  width: 20%;
-  height: 100%;
-  position: fixed;
-  overflow: hidden;
-  background: #E8E1F1
+  margin:0;
+  padding:0;
 }
 
 .navbar ul li a {
   display: block;
   color: #FF6633;
   text-align: center;
-  padding: 10px;
+  margin: 10px;
+  padding: 20px;
   text-decoration: none;
 }
 
 .navbar li a:hover {
-  background-color: #111;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: black
 }
 
 /* About Section */
