@@ -3,8 +3,7 @@ body {
   font-family : monospace;
 }
 
-
-/* Navigation */
+/* -------------- Navigation -------------- */
 
 #navbar {
     list-style-type: none;
@@ -31,6 +30,7 @@ body {
     background-color: #FFECD7;
 }
 
+/* Large Screen */
 @media screen and (min-width: 1000px) {
     #navbar {
         height: 100%;
@@ -63,40 +63,54 @@ body {
     }
 }
 
+/* Phone Screen */
 @media screen and (max-width: 400px) {
   #navbar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 10%;
-    display: flex;
-    flex-direction: row;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 10%;
+      display: flex;
+      flex-direction: row;
   }
   #navbar li a {
-    text-align: center;
-    float: none;
-    margin: 0
+      text-align: center;
+      float: none;
+      margin: 0; 
   }
 }
 
 
-/* Content */
+/* -------------- Content -------------- */
+ #content{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 @media screen and (min-width: 400px) {
     #content{
         width: 85%;
         float:right;
-        display:flex;
-        flex-direction: column
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #content{
+        width: 100%;
+        padding-top: 15%;
     }
 }
 
 /* Introduction */
 #intro {
+    width: 80%;
     display: flex;
     align-items: center;
-    float:right
 }
+
 #intro img {
     width: 45%;
     margin-left: auto;
@@ -106,6 +120,7 @@ body {
 
 /* Other Sections */
 .section {
+    width: 80%;
     display: flex;
     flex-direction: column;
     float:right;
