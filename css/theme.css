@@ -173,7 +173,7 @@ body {
     padding:10px;
     overflow:scroll;
     list-style-type: none;
-    border-bottom: 3px dashed #FEF0E1;
+    border-bottom: 3px solid #FEF0E1;
 }
 
 .content_table h2{
@@ -207,8 +207,8 @@ body {
     }
 }
 
-.content_table td .no_border {
-    border: 0px
+.no_border {
+    border-bottom: 0px;
 }
 
 /* --------------  Contact --------------  */
