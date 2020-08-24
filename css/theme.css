@@ -21,19 +21,8 @@ body {
 
 .navbar ul {
   list-style-type: none;
-  margin:0;
-  padding:0;
-}
-
-.navbar a {
-  line-height:2.5;
-  display: block;
-  color: #FF6633;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px:
-  padding: 20px;
-  text-decoration: none;
+  margin:10%;
+  padding:5%;
 }
 
 .navbar a:hover {
@@ -41,6 +30,17 @@ body {
   text-decoration-style: wavy;
   text-decoration-color: black;
   text-underline-position: under;
+}
+
+.navbar a {
+  display: block;
+  color: #FF6633;
+  font-size: 20px;
+  text-align: center;
+  border: 20px;
+  margin: 40px;
+  padding = 5%;
+  text-decoration: none;
 }
 
 /* Introduction */
@@ -61,5 +61,6 @@ body {
 .section {
     align-items: center;
     width: 75%;
-    float:right
+    float:right;
+    padding: 20px
 }
