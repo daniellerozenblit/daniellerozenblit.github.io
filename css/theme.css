@@ -99,7 +99,8 @@ body {
 
 @media screen and (max-width: 500px) {
     #content{
-        width: 100%;
+        width: 97%;
+        float:right;
         padding-top: 15%;
     }
 }
