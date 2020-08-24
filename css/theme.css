@@ -1,7 +1,9 @@
 body {
   background-color: #FFE1BE;
-  font-family : monospace
+  font-family : monospace;
+  
 }
+
 
 /* Navigation bar */
 .navbar {
@@ -22,7 +24,8 @@ body {
   padding:0;
 }
 
-.navbar ul li a {
+.navbar a {
+  line-height:2.5;
   display: block;
   color: #FF6633;
   text-align: center;
@@ -31,28 +34,36 @@ body {
   text-decoration: none;
 }
 
-.navbar li a:hover {
+.navbar a:hover {
   text-decoration: underline;
   text-decoration-style: wavy;
-  text-decoration-color: black
+  text-decoration-color: black;
+  text-underline-position: under;
 }
 
-/* About Section */
-.intro {
+/* Introduction */
+#intro {
     display: flex;
     align-items: center;
     width: 80%;
     float:right
 }
-.intro img {
+#intro img {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px
+}
+#intro p {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px
 }
-.intro p {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px
+
+/* Other Sections */
+.section {
+    align-items: center;
+    width: 75%;
+    float:right
 }
