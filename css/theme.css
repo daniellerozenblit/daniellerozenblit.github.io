@@ -1,47 +1,86 @@
 body {
   background-color: #FFE1BE;
   font-family : monospace;
-  
 }
 
-/*Vertical Navbar*/
-@media (min-width: 600px) {
-    /* Navigation bar */
-    #navbar {
-      height: 100%;
-      width: 20%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background: #FFECD7; 
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around
-    }
-    
-    #navbar ul {
-      list-style-type: none;
-      margin:10%;
-      padding:5%;
-      align-content: center
-    }
-    
-    #navbar a {
-      display: block;
-      color: #FF6633;
-      font-size: 20px;
-      text-align: center;
-      margin: 30%;
-      padding = 10%;
-      text-decoration: none;
-    }
 
-    #navbar a:hover {
-      text-decoration: underline;
-      text-decoration-style: wavy;
-      text-decoration-color: black;
-      text-underline-position: under;
+/* Navigation */
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFECD7;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#navbar li a {
+    display: block;
+    color: #FF6633;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover:not(.active) {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: black;
+    text-underline-position: under;
+    background-color: #FFECD7;
+}
+
+@media screen and (min-width: 1000px) {
+    #navbar {
+        height: 100%;
+        width: 15%;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
     }
+    #navbar li a {
+        padding: 40px 32px;
+        text-align: center;
+        font-size: 17px
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #navbar {
+        height: 100%;
+        width: 15%;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+    #navbar li a {
+        padding: 20px 16px;
+        text-align: center;
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width: 400px) {
+  #navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    display: block;
+  }
+  #navbar li a {
+    text-align: center;
+    float: none;
+  }
+}
+
+/* Content */
+#content{
+    width: 80%
 }
 
 
