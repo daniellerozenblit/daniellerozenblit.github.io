@@ -1,5 +1,5 @@
 body {
-  background-color: #FFE1BE;
+  background-color: #FEF0E1;
   font-family : monospace;
 }
 
@@ -9,7 +9,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #FFECD7;
+    background-color: #FDDFC7 ;
     position: fixed;
     top: 0;
     left: 0;
@@ -27,7 +27,7 @@ body {
     text-decoration-style: wavy;
     text-decoration-color: black;
     text-underline-position: under;
-    background-color: #FFECD7;
+    background-color: #FDDFC7;
 }
 
 /* Large Screen */
@@ -182,6 +182,14 @@ body {
     margin: 0px;
     color:#6666CC;
 }
+
+.content_table h3 {
+    font-size:12px;
+    padding:0px;
+    margin: 0px;
+    color:#FF6633;
+}
+
 
 #footer {
   position: absolute;
