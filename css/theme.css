@@ -69,26 +69,32 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    height: auto;
-    display: block;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
   }
   #navbar li a {
     text-align: center;
     float: none;
+    margin: 0
   }
 }
 
-/* Content */
-#content{
-    width: 80%
-}
 
+/* Content */
+@media screen and (min-width: 400px) {
+    #content{
+        width: 85%;
+        float:right;
+        display:flex;
+        flex-direction: column
+    }
+}
 
 /* Introduction */
 #intro {
     display: flex;
     align-items: center;
-    width: 80%;
     float:right
 }
 #intro img {
@@ -102,7 +108,6 @@ body {
 .section {
     display: flex;
     flex-direction: column;
-    width: 75%;
     float:right;
     padding: 20px
 }
