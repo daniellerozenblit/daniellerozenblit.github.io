@@ -207,8 +207,8 @@ body {
     }
 }
 
-.no_border {
-    border-bottom: 0px;
+.content_table tbody > tr:last-child > td {
+  border-bottom: 0;
 }
 
 /* --------------  Contact --------------  */
