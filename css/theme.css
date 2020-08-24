@@ -155,7 +155,6 @@ body {
     }
 }
 
-
 /* Table Style */
 
 .content_table {
@@ -193,7 +192,7 @@ body {
 }
 
 .content_table h3{
-    font-size:12px;
+    font-size:13px;
     padding:0px;
     margin: 0px;
     color:#FF9966;
@@ -205,7 +204,7 @@ body {
 }
 
 .table_icons img{
-    width: 70%;
+    width: 60%;
     padding: 10px;
 }
 
@@ -215,7 +214,7 @@ body {
 
 @media screen and (min-width: 500px) {
     .content_table .c1 {
-       width : 30%;
+       width : 35%;
     }
 }
 
