@@ -87,6 +87,7 @@ body {
         display:flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center
     }
 
 @media screen and (min-width: 500px) {
@@ -101,6 +102,7 @@ body {
     #content{
         width: 100%;
         padding-top: 15%;
+        float: right;
     }
 }
 
@@ -112,7 +114,7 @@ body {
 }
 
 #intro img {
-    width: 100%;
+    width: 50%;
     padding: 20px;
 }
 
@@ -128,8 +130,9 @@ body {
 
 @media screen and (max-width: 500px) {
     #intro{
-        width: 90%;
-        flex-direction: column
+        width: 100%;
+        flex-direction: column;
+        justify-content:center
     }
     
     #intro img {
