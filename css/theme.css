@@ -64,7 +64,7 @@ body {
 }
 
 /* Phone Screen */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   #navbar {
       width: 100%;
       position: fixed;
@@ -89,7 +89,7 @@ body {
         align-items: center;
     }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
     #content{
         width: 85%;
         float:right;
@@ -97,7 +97,7 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #content{
         width: 100%;
         padding-top: 15%;
@@ -126,7 +126,7 @@ body {
     margin:10px
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #intro{
         flex-direction: column
     }
@@ -145,7 +145,7 @@ body {
     padding: 20px
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .section {
         width: 95%;
     }
@@ -158,23 +158,18 @@ body {
     table-layout: fixed;
     width: 100%;
 }
-.content_table td:first-of-type {
-    width : 30%;
-	border-right:1px solid black;
-}
-.content_table td:last-of-type {
-	border-left:1px solid black;
-}
-.content_table td{
-	border-collapse: collapse;
-    vertical-align: top;
-    padding:10px;
-    overflow:scroll;
-    list-style-type: none;
-}
+
 .content_table td li{
     padding: 5px;
 }
+
+.content_table td{
+	   border-collapse: collapse;
+        vertical-align: top;
+        padding:10px;
+        overflow:scroll;
+        list-style-type: none;
+    }
 
 .content_table h2{
     font-size:15px;
@@ -183,20 +178,32 @@ body {
     color:#6666CC;
 }
 
-.content_table h3 {
+.content_table h3{
     font-size:12px;
     padding:0px;
     margin: 0px;
     color:#FF6633;
 }
 
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
+@media screen and (max-width: 500px) {
+    .content_table tr {
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .content_table .c1{
+        width:100%;
+        border: 0px;
+    }
 }
+
+@media screen and (min-width: 500px) {
+    .content_table .c1 {
+       width : 30%;
+	   border-right:1px solid black;
+    }
+}
+
 
 /* --------------  Contact --------------  */
 
