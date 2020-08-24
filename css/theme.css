@@ -4,44 +4,46 @@ body {
   
 }
 
+/*Vertical Navbar*/
+@media (min-width: 600px) {
+    /* Navigation bar */
+    #navbar {
+      height: 100%;
+      width: 20%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: #FFECD7; 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around
+    }
+    
+    #navbar ul {
+      list-style-type: none;
+      margin:10%;
+      padding:5%;
+      align-content: center
+    }
+    
+    #navbar a {
+      display: block;
+      color: #FF6633;
+      font-size: 20px;
+      text-align: center;
+      margin: 30%;
+      padding = 10%;
+      text-decoration: none;
+    }
 
-/* Navigation bar */
-.navbar {
-  height: 100%;
-  width: 20%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  padding-top: 20px; 
-  background: #FFECD7; 
-  display: flex;
-  flex-direction: column
+    #navbar a:hover {
+      text-decoration: underline;
+      text-decoration-style: wavy;
+      text-decoration-color: black;
+      text-underline-position: under;
+    }
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin:10%;
-  padding:5%;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: black;
-  text-underline-position: under;
-}
-
-.navbar a {
-  display: block;
-  color: #FF6633;
-  font-size: 20px;
-  text-align: center;
-  border: 20px;
-  margin: 40px;
-  padding = 5%;
-  text-decoration: none;
-}
 
 /* Introduction */
 #intro {
@@ -59,7 +61,8 @@ body {
 
 /* Other Sections */
 .section {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     width: 75%;
     float:right;
     padding: 20px
