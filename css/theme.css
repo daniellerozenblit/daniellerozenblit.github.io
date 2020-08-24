@@ -206,21 +206,20 @@ body {
     padding: 10px;
 }
 
+.content_table tbody > tr:last-child > td {
+  border-bottom: 0;
+}
+
 @media screen and (min-width: 500px) {
     .content_table .c1 {
        width : 30%;
     }
 }
 
-.content_table tbody > tr:last-child > td {
-  border-bottom: 0;
-}
-
-
 @media screen and (max-width: 500px) {
     .table_icons img{
         width: 50%;
-        height:50%
+        height:auto
     }
     .content_table tr {
         display:flex;
