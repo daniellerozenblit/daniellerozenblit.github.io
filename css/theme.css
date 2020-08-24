@@ -220,7 +220,7 @@ body {
 @media screen and (max-width: 500px) {
     .table_icons img{
         width: 50%;
-        height:auto
+        height:50%
     }
     .content_table tr {
         display:flex;
