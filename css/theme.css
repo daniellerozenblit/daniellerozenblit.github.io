@@ -158,6 +158,9 @@ body {
 .content_table {
     table-layout: fixed;
     width: 100%;
+    background: #FDDFC7;
+    border-radius: 10px;
+    padding: 5px
 }
 
 .content_table td li{
