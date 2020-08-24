@@ -168,12 +168,13 @@ body {
 }
 
 .content_table td{
-	   border-collapse: collapse;
-        vertical-align: top;
-        padding:10px;
-        overflow:scroll;
-        list-style-type: none;
-    }
+    border-collapse: collapse;
+    vertical-align: top;
+    padding:10px;
+    overflow:scroll;
+    list-style-type: none;
+    border-bottom: 3px dashed #FEF0E1;
+}
 
 .content_table h2{
     font-size:15px;
@@ -203,10 +204,12 @@ body {
 @media screen and (min-width: 500px) {
     .content_table .c1 {
        width : 30%;
-	   border-right:1px solid black;
     }
 }
 
+.content_table td .no_border {
+    border: 0px
+}
 
 /* --------------  Contact --------------  */
 
