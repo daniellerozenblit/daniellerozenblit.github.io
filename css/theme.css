@@ -113,7 +113,17 @@ body {
 
 #intro img {
     width: 50%;
-    padding: 10px;
+    padding: 20px;
+}
+
+#hello {
+    display:flex;
+    flex-direction: column
+}
+#hello p{
+    display:block;
+    padding:0px;
+    margin:10px
 }
 
 @media screen and (max-width: 400px) {
@@ -126,11 +136,49 @@ body {
     }
 }
 
-/* Other Sections */
+/* --------------  Other Sections --------------  */
 .section {
     width: 80%;
     display: flex;
     flex-direction: column;
     float:right;
     padding: 20px
+}
+
+@media screen and (max-width: 400px) {
+    .section {
+        width: 95%;
+    }
+}
+
+
+/* Table Style */
+
+.content_table {
+    table-layout: fixed;
+    width: 100%;
+}
+.content_table td:first-of-type {
+    width : 30%;
+	border-right:1px solid black;
+}
+.content_table td:last-of-type {
+	border-left:1px solid black;
+}
+.content_table td{
+	border-collapse: collapse;
+    vertical-align: top;
+    padding:10px;
+    overflow:scroll;
+    list-style-type: none;
+}
+.content_table td li{
+    padding: 5px;
+}
+
+.content_table h2{
+    font-size:15px;
+    padding:0px;
+    margin: 0px;
+    color:#6666CC;
 }

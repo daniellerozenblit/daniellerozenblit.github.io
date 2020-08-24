@@ -23,58 +23,102 @@
     <div id = "content">
     <div id = "intro">
         <img src="images/lamb_photo.gif" alt="Danielle">
-        <p> Hello! My name is <b>Danielle</b>. I am currently a rising Junior studying computer science at <b>Brown University</b>.</p>
+        <div id = "hello">
+            <p style="font-size:25px;"> Hello! I'm <b>Danielle</b></p> <br>
+            <p>I'm currently a rising Junior studying computer science at <b>Brown University</b>.</p>
+        </div>
     </div>
       
     <!-- Experience Section -->
     <div class='section' id = "work">
         <p><h1>Work</h1>
-        <div>
-        <p>This is my work experience</p>
-        </div>
+        <table class='content_table'>
+        <tr>
+            <td><h2>Data Architecture Intern</h2><br>Fidelity Investments</td>
+            <td>
+                <li><b>Log Analysis Project</b><br>Parsed through, cleansed and performed time series analysis on log files in AWS - S3 (the clean data was particularly helpful for the data capabilities team). Worked in a
+                    Jupyter Notebook in AWS Sagemaker to model the data and find outliers. Used ARIMA and Exponential Smoothing models to perform statistical analysis. </li>
+                <li><b>PowerDesigner Project</b><br>Created an extension for SAP PowerDesigner that was widely distributed and used within the
+                    technology department.</li>
+                <li><b>Customer Clustering Project</b><br> Performed cluster analysis on customer data in order to identify possible trends and
+                    groupings.
+                </li>
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Software Engineer Intern</h2><br>jSonar</td>
+            <td>
+                <li><b>Amazon Lexbot Project</b><br>Presented in front of a customer panel after just two weeks at the company. Demonstrated
+                    the product’s capabilities in behavioral analytics using AWS Lexbot and AWS CloudWatch logs. Used MongoDB
+                    pipelines to set up a UEBA and classifier to analyze user behavior.
+                </li>
+                <li><b>SQL Injection Project</b><br>Used User and Entity Behavior Analytics (UEBA) to catch and report SQL injection attempts.
+                    The code for this UEBA was used in the product released to customers.
+                </li>
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Teaching Assistant</h2><br>Brown University</td>
+            <td>
+                <li><b>Discrete Structures and Probability</b><br> Teaching assistant for CSCI0220: a mathematics course on discrete structures and probability within the computer science department. Responsibilities included hosting weekly hours, planning review material for the TAs and grading homeworks / exams. 
+                </li>
+            </td>
+        </tr>
+        </table>
     </div>
     
     <!-- Project Section -->
     <div class='section' id = "projects">
         <p><h1>Projects</h1>
-        <div>
-        <p>These are my projects</p>
-        </div>
+        <table class='content_table'>
+        <tr>
+            <td><h2>Chess Board Recognition</h2><br>Computer Vision</td>
+            <td>blah blah blah</td>
+        </tr>
+        <tr>
+            <td><h2>Internship Tracker</h2><br>Practical Systems Skills</td>
+            <td>blah blah blah</td>
+        </tr>
+        </table>
     </div>
       
     <!-- Courses Section -->
     <div class='section' id = "courses">
         <p><h1>Courses</h1>
-        <div>
-        <h2>Computer Science</h2>
-        <ul>
-            <li>Computer Science: An Integrated Introduction (CSCI0170/CSCI0180)</li>
-            <li>Introduction to Computer Systems (CSCI0330)</li>
-            <li>Practical System Skills (CSCI0060)</li>
-            <li>Computer Vision (CSCI1430)</li>
-            <li>Logic for Systems (CSCI1950Y)</li>
-            <li>**Design and Analysis of Algorithms (CSCI1570)</li>
-            <li>**Design and Implementation of Programming Languages (CSCI1730)</li>
-            
-        </ul>
-        <h2>Mathematics</h2>
-        <ul>
-            <li>Honors Calculus (MATH0350)</li>
-            <li>Linear Algebra (MATH0520)</li>
-            <li>Discrete Structures and Probability (CSCI0220)</li>
-            <li>Statistical Inference I (AMPA1650)</li>
-            <li>**Operations Research: Deterministic Models (AMPA1210)</li>
-        </ul>
-        <h2>Economics</h2>
-        <ul>
-            <li>Principles of Economics</li>
-            <li>Intermediate Microeconomics</li>    
-            <li>**Game Theory and Applications to Economics (ECON1870)</li>
-        </ul>
-            
+        <table class='content_table'>
+        <tr>
+            <td><h2>Computer Science</h2></td>
+            <td>
+                <li>Computer Science: An Integrated Introduction (CSCI0170/CSCI0180)</li>
+                <li>Introduction to Computer Systems (CSCI0330)</li>
+                <li>Practical System Skills (CSCI0060)</li>
+                <li>Computer Vision (CSCI1430)</li>
+                <li>Logic for Systems (CSCI1950Y)</li>
+                <li>**Design and Analysis of Algorithms (CSCI1570)</li>
+                <li>**Design and Implementation of Programming Languages (CSCI1730)</li>
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Mathematics</h2></td>
+            <td>
+                <li>Honors Calculus (MATH0350)</li>
+                <li>Linear Algebra (MATH0520)</li>
+                <li>Discrete Structures and Probability (CSCI0220)</li>
+                <li>Statistical Inference I (AMPA1650)</li>
+                <li>**Operations Research: Deterministic Models (AMPA1210)</li>
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Economics</h2></td>
+            <td>
+                <li>Principles of Economics</li>
+                <li>Intermediate Microeconomics</li>    
+                <li>**Game Theory and Applications to Economics (ECON1870)</li>
+            </td>
+        </tr>
+        </table>        
         <br>
-        <p>** = currently enrolled</p>
-        </div>
+        <p>** = currently enrolled</p>  
     </div>
     
     <!-- Contact Section -->
