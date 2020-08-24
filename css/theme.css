@@ -111,6 +111,7 @@ body {
     width: 80%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #intro img {
@@ -130,9 +131,8 @@ body {
 
 @media screen and (max-width: 500px) {
     #intro{
-        width: 100%;
+        width: 90%;
         flex-direction: column;
-        justify-content:center
     }
     
     #intro img {
@@ -151,7 +151,7 @@ body {
 
 @media screen and (max-width: 500px) {
     .section {
-        width: 95%;
+        width: 92%;
     }
 }
 
