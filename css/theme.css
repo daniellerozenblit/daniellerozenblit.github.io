@@ -1,5 +1,12 @@
+:root {
+  --black: #1e90ff;
+  --light-peach: #FEF0E1;
+  --peach: #FDDFC7;
+  --dark-orange: #de5815;
+}
+
 body {
-  background-color: #FEF0E1;
+  background-color: var(--light-peach);
   font-family : monospace;
 }
 
@@ -9,7 +16,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #FDDFC7 ;
+    background-color: var(--peach) ;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,7 +24,7 @@ body {
 
 #navbar li a {
     display: block;
-    color: #FF9966;
+    color: black;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -25,9 +32,8 @@ body {
 #navbar li a:hover:not(.active) {
     text-decoration: underline;
     text-decoration-style: wavy;
-    text-decoration-color: black;
+    text-decoration-color: var(--dark-orange);
     text-underline-position: under;
-    background-color: #FDDFC7;
 }
 
 /* Large Screen */
@@ -175,7 +181,7 @@ body {
     padding:10px;
     overflow:scroll;
     list-style-type: none;
-    border-bottom: 3px solid #FEF0E1;
+    border-bottom: 3px solid var(--peach);
 }
 
 .content_table h1{
@@ -192,10 +198,10 @@ body {
 }
 
 .content_table h3{
-    font-size:13px;
+    font-size:14px;
     padding:0px;
     margin: 0px;
-    color:#FF9966;
+    color:var(--dark-orange);
 }
 
 .table_icons{
