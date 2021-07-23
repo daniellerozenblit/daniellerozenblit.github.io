@@ -14,6 +14,7 @@
     <div id="navbar">
         <li><a href="#intro">About</a></li>
         <li><a href="#work">Work</a></li>
+        <li><a href="#teaching">Teaching</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#courses">Courses</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -29,10 +30,24 @@
         </div>
     </div>
       
-    <!-- Experience Section -->
+    <!-- Work Section -->
     <div class='section' id = "work">
         <p><h1>Work</h1>
         <table class='content_table'>
+        <tr>
+            <td class = 'c1'>
+                <h1>Software Engineer Intern | Summer 2021</h1>
+                <h2>Microsoft - CHIE Data Plane Firmware Team</h2>
+                <dev class="table_icons">
+                    <img src="images/fidelity_symbol_circle.gif">
+                </dev>
+            </td>
+            <td class = 'c2'>
+                <li><h3>AMD CPU Error Telemetry Dashboard</h3><br>Created a telemetry dashboard for the AMD platform to monitor processor errors in the AMD product lines. Utilized Azure Data Explorer / Kusto in order to decode telemetry information from SEL and WHEA logs and extract relevant data. Utilized Microsoft Power BI in order to provide effective and intuitive vizualizations of error trends that could reveal error dependencies. This dashboard was effectively used by the team to identify, escalate, and remidiate a particular firmware issue with AMD Milan based systems.</li>
+                <li><h3>DRAM Test and Repair</h3><br>Developed a DRAM Test and Repair (DTR) feature for AMD platforms that would provide instant, remote, and in-system DRAM cell replacement for Azure infrastructure. This feature utlizes a Memory Built-in Self-Test (BIST) and the Post Package Repair algorithm (PPR) in order to perform and report telemetry for in-system DIMM repairs. Has huge potential business impact for Azure - eliminates DIMM replacement costs and reduce server out of service times from several weeks to around 40 minutes for DIMM repairs. </li>
+                </li>
+            </td>
+        </tr>
         <tr>
             <td class = 'c1'>
                 <h1>Data Engineer Intern | Summer 2020</h1>
@@ -44,7 +59,7 @@
             <td class = 'c2'>
                 <li><h3>Log Analysis Project</h3><br>Collected, parsed, and analyzed database logs in AWS S3. The extracted data was particularly helpful for the data capabilities team's analysis. Used ARIMA and Exponential Smoothing models to perform time series analysis on the log data and to identify potential security threats. </li>
                 <li><h3>PowerDesigner Project</h3><br>Created an extension for SAP PowerDesigner that was widely distributed and used within the technology department.</li>
-                <li><h3>Customer Clustering Project</h3><br> Performed cluster analysis on customer data, using the python scikit-learn package.
+                <li><h3>Customer Clustering Project</h3><br> Performed cluster analysis on customer data using the python scikit-learn machine learning package.
                 </li>
             </td>
         </tr>
@@ -57,12 +72,33 @@
                 </dev>
             </td>
             <td class = 'c2'>
-                <li><h3>Amazon Lexbot Project</h3><br>Presented in front of a customer panel after just two weeks at the company. Demonstrated
-                    the product’s capabilities in behavioral analytics using AWS Lexbot and AWS CloudWatch logs. Used MongoDB
-                    pipelines to set up a UEBA and classifier to analyze user behavior.
+                <li><h3>Amazon Lexbot Project</h3><br>Presented in front of a customer panel to demonstrate the product’s extensive capabilities in behavioral analytics.
+                Used AWS CloudWatch to collect data from chats in AWS Lexbot, and set up MongoDB
+                aggregation pipelines in order to develop a UEBA and classifier in order to analyze user behavior.
                 </li>
-                <li><h3>SQL Injection Project</h3><br>Used User and Entity Behavior Analytics (UEBA) to catch and report SQL injection attempts.
-                    The code for this UEBA was used in the product released to customers.
+                <li><h3>SQL Injection Project</h3><br>Used User and Entity Behavior Analytics (UEBA) to catch and report SQL injection attempts. This feature was integrated into the final product and made available to customers.
+                </li>
+            </td>
+        </tr>
+        </table>
+    </div>
+        
+    <!-- Teaching Section -->
+    <div class='section' id = "teaching">
+        <p><h1>Teaching</h1>
+        <table class='content_table'>
+        <tr>
+            <td class = 'c1'>
+                <h1>Head Teaching Assistant | Fall 2021</h1>
+                <h2>Brown University</h2>
+                <dev class="table_icons">
+                        <img src="images/ta_symbol.gif">
+                </dev>
+            </td>
+            <td class = 'c2'>
+                <li><h3>Introduction to Computer Vision</h3><br> Head teaching assistant for CSCI1430: a course that indroduces various topics within the field of computer vision. This includes: fundamentals of image formation, camera imaging geometry,feature detection and matching, image classification, scene understanding, and deep learning with neural networks.
+                </li>
+                <li>Responsibilities involved hiring and training UTAs, working on course development, hosting weekly office hours, and grading projects / homework.
                 </li>
             </td>
         </tr>
@@ -75,7 +111,9 @@
                 </dev>
             </td>
             <td class = 'c2'>
-                <li><h3>Discrete Structures and Probability</h3><br> Teaching assistant for CSCI0220: a mathematics course on discrete structures and probability within the computer science department. Responsibilities included hosting weekly hours, planning review material for the TAs and grading homeworks / exams. 
+                <li><h3>Discrete Structures and Probability</h3><br> Teaching assistant for CSCI0220: a mathematics course on discrete structures and probability within the computer science department.
+                </li> 
+                <li>Responsibilities included hosting weekly officehours, planning review material for the TAs and grading homeworks / exams.
                 </li>
             </td>
         </tr>
