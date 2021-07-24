@@ -3,6 +3,7 @@
   --light-peach: #FEF0E1;
   --peach: #FDDFC7;
   --dark-orange: #de5815;
+  --dark-purple: #5454b9;
 }
 
 body {
@@ -185,15 +186,15 @@ body {
 }
 
 .content_table h1{
-    font-size:15px;
+    font-size:18px;
     padding:0px;
     margin: 0px;
-    color:#6666CC;
+    color: var(--dark-purple);
 }
 
 .content_table h2{
-    font-size:14px;
-    padding:5px;
+    font-size:16px;
+    padding:0px;
     margin: 0px;
 }
 
