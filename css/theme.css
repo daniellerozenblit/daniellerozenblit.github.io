@@ -194,13 +194,13 @@ body {
 
 .content_table h2{
     font-size:16px;
-    padding:0px;
+    padding: 0px;
     margin: 0px;
 }
 
 .content_table h3{
     font-size:14px;
-    padding:0px;
+    padding: 0px;
     margin: 0px;
     color:var(--dark-orange);
 }
