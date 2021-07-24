@@ -181,7 +181,7 @@ body {
     padding:10px;
     overflow:scroll;
     list-style-type: none;
-    border-bottom: 3px solid var(--peach);
+    border-bottom: 3px solid var(--light-peach);
 }
 
 .content_table h1{
