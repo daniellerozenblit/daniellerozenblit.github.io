@@ -168,7 +168,8 @@ body {
     table-layout: fixed;
     width: 100%;
     background: #FDDFC7;
-    border-radius: 10px;
+    border-radius: 3px;
+    border: none;
     padding: 5px
 }
 
@@ -183,6 +184,10 @@ body {
     overflow:scroll;
     list-style-type: none;
     border-bottom: 3px solid var(--light-peach);
+}
+
+.content_table tbody > tr:last-child > td {
+  border-bottom: 0;
 }
 
 .content_table h1{
@@ -215,9 +220,6 @@ body {
     padding: 10px;
 }
 
-.content_table tbody > tr:last-child > td {
-  border-bottom: 0;
-}
 
 @media screen and (min-width: 500px) {
     .content_table .c1 {
