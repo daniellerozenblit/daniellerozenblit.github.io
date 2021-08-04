@@ -168,8 +168,7 @@ body {
     table-layout: fixed;
     width: 100%;
     background: #FDDFC7;
-    border-radius: 3px;
-    border: none;
+    border-radius: 10px;
     padding: 5px
 }
 
@@ -181,7 +180,7 @@ body {
     border-collapse: collapse;
     vertical-align: top;
     padding:10px;
-    overflow:scroll;
+    overflow: hidden;
     list-style-type: none;
     border-bottom: 3px solid var(--light-peach);
 }
